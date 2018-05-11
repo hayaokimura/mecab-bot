@@ -6,7 +6,7 @@ from flask import Flask, request, abort
 from linebot import (
     LineBotApi, WebhookHandler
 )  
-from linebot.modules import (
+from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage
 )
 
